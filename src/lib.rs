@@ -1,6 +1,7 @@
 //! Driver for Sensirion SHT3x-DIS digital temperature/humidity sensors
 
 #![no_std]
+#![allow(dead_code)]
 
 extern crate byteorder;
 extern crate embedded_hal;

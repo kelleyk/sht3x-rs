@@ -7,11 +7,11 @@ keywords = ["embedded-hal-driver", "sht30", "sht31", "sht35"]
 license = "MIT OR Apache-2.0"
 name = "sht3x"
 repository = "https://github.com/miek/sht3x-rs"
-version = "0.1.1"
+version = "0.2.0"
 
 [dependencies]
-byteorder = { version = "1", default-features = false }
-embedded-hal = "0.1.1"
+byteorder = { version = "1", default-features = false }  # XXX: @kelleyk: update me
+embedded-hal = "0.2.7"
 
 [dev-dependencies]
 linux-embedded-hal = "0.1.1"
